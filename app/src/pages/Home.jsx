@@ -1,5 +1,5 @@
 
-const Acceuil = () => {
+const Home = () => {
     return (
         <>
             <h1>Page d'acceuil</h1>
@@ -7,4 +7,4 @@ const Acceuil = () => {
     )
 }
 
-export default Acceuil;
+export default Home;

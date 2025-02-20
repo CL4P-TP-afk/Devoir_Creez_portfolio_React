@@ -1,5 +1,5 @@
 
-const Realisations = () => {
+const Portfolio = () => {
     return (
         <>
             <h1>Page Realisations</h1>
@@ -7,4 +7,4 @@ const Realisations = () => {
     )
 }
 
-export default Realisations;
+export default Portfolio;
