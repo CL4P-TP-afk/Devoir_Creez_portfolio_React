@@ -3,22 +3,21 @@ import './App.css';
 import React from "react";
 import {Routes, Route, Link} from "react-router-dom";
 
+import Nav from './components/Nav';
+
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import MentionsLegales from "./pages/Mentions-legales";
 
+
+
 function App() {
   return (
     <>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/services">services</Link>
-        <Link to="/portfolio">portfolio</Link>
-        <Link to="/contact">contact</Link>
-        <Link to="/mentionslegales">Mentions Légales</Link>
-      </nav>
+      <Nav />
+      
 
       <Routes>
         <Route path="/" element={<Home/>}></Route>
