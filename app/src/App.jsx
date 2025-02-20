@@ -4,7 +4,7 @@ import React from "react";
 import {Routes, Route, Link} from "react-router-dom";
 
 import Home from "./pages/Home";
-import Services from "./pages/Services"
+import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import MentionsLegales from "./pages/Mentions-legales";
