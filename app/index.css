@@ -4,3 +4,7 @@ a {
     padding: 1em;
     text-transform: uppercase;
 }
+
+a:hover {
+    text-decoration:underline;
+}
