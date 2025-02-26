@@ -1,15 +1,17 @@
 import { NavLink } from "react-router";
+import "./Nav.css";
 
 const Lien = (props) => {
   return (
     <li class="nav-item">
       <NavLink
+        className="style-lien"
         to={props.page}
         style={({ isActive }) => {
           return {
-            fontWeight: isActive ? "bold" : "",
+            fontWeight: isActive ? "bold" : "normal",
             color: isActive ? "red" : "",
-            textDecoration: isActive ? "underline" : "",
+            textDecoration: isActive ? "underline" : "none",
           };
         }}
       >
