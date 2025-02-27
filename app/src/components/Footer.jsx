@@ -1,12 +1,12 @@
 const Foot = () => {
   return (
     <>
-      <footer class="bg-body-tertiary text-center text-md-start">
+      <footer className="bg-dark text-center  text-white">
        
-        <div class="container p-4">
-          <div class="row">
-            <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Footer Content</h5>
+        <div className="container p-4">
+          <div className="row">
+            <div className="col-lg-4 col-md-4 mb-4 mb-md-0 text-start">
+              <h2 className="font-bold">Footer Content</h2>
 
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
@@ -16,53 +16,53 @@ const Foot = () => {
               </p>
             </div>
 
-            <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
+            <div className="col-lg-4 col-md-4 mb-4 mb-md-0 ">
+              <h2 className="font-bold">Links</h2>
 
-              <ul class="list-unstyled mb-0">
+              <ul className="list-unstyled mb-0 ">
                 <li>
-                  <a href="#!" class="text-body">
+                  <a href="#!" className="text-white">
                     Link 1
                   </a>
                 </li>
                 <li>
-                  <a href="#!" class="text-body">
+                  <a href="#!" className="text-white">
                     Link 2
                   </a>
                 </li>
                 <li>
-                  <a href="#!" class="text-body">
+                  <a href="#!" className="text-white">
                     Link 3
                   </a>
                 </li>
                 <li>
-                  <a href="#!" class="text-body">
+                  <a href="#!" className="text-white">
                     Link 4
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
-              <h5 class="text-uppercase mb-0">Links</h5>
+            <div className="col-lg-4 col-md-4 mb-4 mb-md-0">
+              <h2 className="font-bold mb-0">Links</h2>
 
-              <ul class="list-unstyled">
+              <ul className="list-unstyled">
                 <li>
-                  <a href="#!" class="text-body">
+                  <a href="#!" className="text-white">
                     Link 1
                   </a>
                 </li>
                 <li>
-                  <a href="#!" class="text-body">
+                  <a href="#!" className="text-white">
                     Link 2
                   </a>
                 </li>
                 <li>
-                  <a href="#!" class="text-body">
+                  <a href="#!" className="text-white">
                     Link 3
                   </a>
                 </li>
                 <li>
-                  <a href="#!" class="text-body">
+                  <a href="#!" className="text-white">
                     Link 4
                   </a>
                 </li>
