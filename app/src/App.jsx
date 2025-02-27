@@ -17,7 +17,7 @@ function App() {
     <>
       <Nav />
 
-      <Foot />
+      
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/services" element={<Services />}></Route>
@@ -25,6 +25,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/mentionslegales" element={<MentionsLegales />}></Route>
       </Routes>
+      <Foot />
     </>
   );
 }
