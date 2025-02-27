@@ -3,14 +3,14 @@ import "./Nav.css";
 
 const Lien = (props) => {
   return (
-    <li class="nav-item">
+    <li className="nav-item">
       <NavLink
         className="style-lien"
         to={props.page}
         style={({ isActive }) => {
           return {
             fontWeight: isActive ? "bold" : "normal",
-            color: isActive ? "red" : "",
+            color: isActive ? "yellow" : "",
             textDecoration: isActive ? "underline" : "none",
           };
         }}
@@ -24,14 +24,14 @@ const Lien = (props) => {
 const Nav = () => {
   return (
     <>
-      <header>
-        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-          <div class="container-fluid ">
-            <span class="navbar-brand mb-0 h1 text-white text-uppercase">
+      <header className="sticky-top">
+        <nav className="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
+          <div className="container-fluid ">
+            <span className="navbar-brand mb-0 h1 text-white text-uppercase">
               John Doe
             </span>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -39,13 +39,13 @@ const Nav = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon "></span>
+              <span className="navbar-toggler-icon "></span>
             </button>
             <div
-              class="collapse navbar-collapse justify-content-end "
+              className="collapse navbar-collapse justify-content-end "
               id="navbarSupportedContent"
             >
-              <ul class="navbar-nav mb-2 mb-lg-0 ">
+              <ul className="navbar-nav mb-2 mb-lg-0 ">
                 <Lien lien="Home" page="/" />
                 <Lien lien="Services" page="/services" />
                 <Lien lien="Portofolio" page="/portfolio" />
