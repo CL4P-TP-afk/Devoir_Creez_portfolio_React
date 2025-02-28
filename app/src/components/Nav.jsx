@@ -1,11 +1,11 @@
 import { NavLink } from "react-router";
-import "./Nav.css";
+import "./links-styles.css";
 
 const Lien = (props) => {
   return (
     <li className="nav-item">
       <NavLink
-        className="style-lien"
+        className="nav-lien"
         to={props.page}
         style={({ isActive }) => {
           return {
@@ -27,9 +27,9 @@ const Nav = () => {
       <header className="sticky-top">
         <nav className="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
           <div className="container-fluid ">
-            <span className="navbar-brand mb-0 h1 text-white text-uppercase">
+            <h1 className="navbar-brand mb-0 h1 text-white text-uppercase">
               John Doe
-            </span>
+            </h1>
             <button
               className="navbar-toggler"
               type="button"
