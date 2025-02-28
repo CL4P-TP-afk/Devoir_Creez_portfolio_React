@@ -23,13 +23,13 @@ const Foot = () => {
           <div className="row">
 
             <div className="col-lg-4 col-md-4 mb-4 mb-md-0 text-start">
-              <h2 className="">Footer Content</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-                atque ea quis molestias. Fugiat pariatur maxime quis culpa
-                corporis vitae repudiandae aliquam voluptatem veniam, est atque
-                cumque eum delectus sint!
-              </p>
+              <h2 className="">John Doe</h2>
+              <address>
+                40 rue Laure Diebold <br></br>
+                69009 Lyon,France<br></br>
+                <Link to="tel: 1020304050" className="text-decoration-none text-white">10 20 30 40 50</Link> 
+              </address>
+              
             </div>
 
             <div className="col-lg-4 col-md-4 mb-4 mb-md-0 ">
