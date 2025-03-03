@@ -27,7 +27,8 @@ const Foot = () => {
               <address>
                 40 rue Laure Diebold <br></br>
                 69009 Lyon,France<br></br>
-                <Link to="tel: 1020304050" className="text-decoration-none text-white">10 20 30 40 50</Link> 
+                <Link rel="nofollow" to="tel: 1020304050" className="text-decoration-none text-white">10 20 30 40 50</Link><br></br>
+                <Link rel="nofollow" to="mailto: john.doe@gmail.com" className="text-decoration-none text-white">john.doe@gmail.com</Link><br></br> 
               </address>
               
             </div>
