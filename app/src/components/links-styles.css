@@ -16,3 +16,12 @@
     font-weight: bold;
 }
 
+.social {
+    
+    fill: #495057;
+}
+
+.social:hover {
+    fill: white;
+    filter: brightness(1.75);
+}
