@@ -6,12 +6,16 @@ import "./home.css";
 const Home = () => {
     return (
         <>
-        <div className="hero">
-        <h1 >Page d'accueil</h1>
+        <main>
+        <section className="hero">
+        
        
             
-        </div>
-        <h1 >Page d'accueil</h1>
+        </section>
+        <section>
+            <p>Une section contenant la présentation de John Doe et la liste de ses compétences (progress bar Bootstrap)</p>
+        </section>
+        </main>
         </>
     )
 }
