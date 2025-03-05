@@ -6,11 +6,12 @@ import "./home.css";
 const Home = () => {
     return (
         <>
-
-        <h1 >Page d'acceuil</h1>
-        <img src="../src/assets/images/hero-bg.jpg" className="img-fluid"></img>
+        <div className="hero">
+        <h1 >Page d'accueil</h1>
+       
             
-        
+        </div>
+        <h1 >Page d'accueil</h1>
         </>
     )
 }
