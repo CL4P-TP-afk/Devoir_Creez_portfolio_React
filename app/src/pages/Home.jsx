@@ -1,5 +1,5 @@
 import "./home.css";
-
+import ModalHome from "../components/Modal-home";
 
 
 
@@ -12,8 +12,8 @@ const Home = () => {
             
             <h1>Bonjour, je suis John Doe</h1>
             <h2>Développeur web full stack</h2>
-            <button type="button" class="btn btn-danger">En savoir plus</button>
             
+            <ModalHome class="modal-dialog-centered" />
         </section>
         <section class="p-5">
             
