@@ -13,13 +13,13 @@ const ModalHome = (args) => {
         <Button color="danger" onClick={toggle}>En savoir plus</Button>
 
         <Modal className="modal-dialog modal-lg modal-dialog-centered " data-bs-theme="dark" isOpen={modal} toggle={toggle} {...args}>
-            <ModalHeader toggle={toggle} className='bg-dark text-white '>
+            <ModalHeader toggle={toggle} className='bg-dark text-white border '>
                 <h2>Mon profil GitHub</h2>
             </ModalHeader>
-            <ModalBody className='bg-dark text-white'>
+            <ModalBody className='bg-dark text-white border'>
                 <ModalHomeContent />
             </ModalBody>
-            <ModalFooter className='bg-dark text-white'>
+            <ModalFooter className='bg-dark text-white border'>
                 <Button color="secondary" onClick={toggle}>Fermer</Button>
             </ModalFooter>
         </Modal>
