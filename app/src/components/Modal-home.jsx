@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import ModalHomeContent from '../content/Modal-home-content';
 
 
 const ModalHome = (args) => {
@@ -11,20 +12,14 @@ const ModalHome = (args) => {
         <>           
         <Button color="danger" onClick={toggle}>En savoir plus</Button>
 
-        <Modal className="modal-dialog modal-dialog-centered" isOpen={modal} toggle={toggle} {...args}>
-            <ModalHeader toggle={toggle}>
-                <h2>Modal title</h2>
+        <Modal className="modal-dialog modal-lg modal-dialog-centered " data-bs-theme="dark" isOpen={modal} toggle={toggle} {...args}>
+            <ModalHeader toggle={toggle} className='bg-dark text-white '>
+                <h2>Mon profil GitHub</h2>
             </ModalHeader>
-            <ModalBody>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+            <ModalBody className='bg-dark text-white'>
+                <ModalHomeContent />
             </ModalBody>
-            <ModalFooter>
+            <ModalFooter className='bg-dark text-white'>
                 <Button color="secondary" onClick={toggle}>Fermer</Button>
             </ModalFooter>
         </Modal>
