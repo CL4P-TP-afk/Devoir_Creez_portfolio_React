@@ -27,9 +27,9 @@ const Nav = () => {
       <header className="sticky-top">
         <nav className="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
           <div className="container-fluid ">
-            <h1 className="navbar-brand mb-0 h1 text-white text-uppercase">
+            <p className="navbar-brand mb-0 h1 text-white text-uppercase">
               John Doe
-            </h1>
+            </p>
             <button
               className="navbar-toggler"
               type="button"
