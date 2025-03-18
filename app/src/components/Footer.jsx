@@ -17,9 +17,9 @@ const Foot = () => {
       <footer className="bg-dark ">
         <div className="container p-4">
           <div className="row">
-            <div className="col-lg-4 col-md-4 mb-4 mb-md-0 text-start ">
-              <h2 className="text-white">John Doe</h2>
-              <address className="text-white">
+            <div className="col-lg-4 col-md-4 mb-4 mb-md-0 text-start text-white">
+              <h2 className=" fs-4">John Doe</h2>
+              <address>
                 40 rue Laure Diebold <br></br>
                 69009 Lyon,France<br></br>
                 <Link
@@ -83,7 +83,7 @@ const Foot = () => {
             </div>
 
             <div className="col-lg-4 col-md-4 mb-4 mb-md-0 text-white">
-              <h2 className="">Liens utiles</h2>
+              <h2 className=" fs-4">Liens utiles</h2>
               <ul className="list-unstyled mb-0 ">
                 <Lien lien="Accueil" page="/" />
                 <Lien lien="Services" page="/services" />
@@ -94,7 +94,7 @@ const Foot = () => {
             </div>
 
             <div className="col-lg-4 col-md-4 mb-4 mb-md-0 text-white">
-              <h2 className=" ">Mes dernières réalisations</h2>
+              <h2 className=" fs-4 ">Mes dernières réalisations</h2>
               <ul className="list-unstyled">
                 <Lien lien="Fresh Food" page="/portfolio" />
                 <Lien lien="Restaurant Akira" page="/portfolio" />
