@@ -1,6 +1,6 @@
-import "./services.css";
+import "./card-effect.css";
 
-// 2 problemes a résoudre sur le responsive mobile hr a la place de border bottom ? dimension du contenant ? taille des icones dans les cards 
+// 2 problemes a résoudre sur le responsive mobile hr a la place de border bottom ? dimension du contenant ? taille des icones dans les cards et dimention des cards
 
 const Services = () => {
     return (
@@ -19,7 +19,7 @@ const Services = () => {
             </div>
                 <div class="row justify-content-center my-5 py-4">
                     <div class="col-md-3 m-2">
-                        <div class="card h-100 text-center card-services m-2">
+                        <div class="card h-100 text-center card-hover m-2">
                             <div class="card-body ">
                                 <div className="my-4 py-3">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="blue" class="bi bi-brush " viewBox="0 0 16 16">
@@ -36,7 +36,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div class="col-md-3 m-2">
-                        <div class="card h-100 text-center card-services  m-2">
+                        <div class="card h-100 text-center card-hover  m-2">
                             <div class="card-body">
                             <div className="my-4 py-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="blue" class="bi bi-code-slash" viewBox="0 0 16 16">
@@ -51,7 +51,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div class="col-md-3  m-2">
-                        <div class="card h-100 text-center card-services  m-2">
+                        <div class="card h-100 text-center card-hover  m-2">
                             <div class="card-body">
                             <div className="my-4 py-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="blue" class="bi bi-search" viewBox="0 0 16 16">
