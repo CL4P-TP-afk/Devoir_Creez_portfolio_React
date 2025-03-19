@@ -20,7 +20,7 @@ const Home = () => {
             <div class="card shadow border-0 container" style={{width: "80%"}}>
                 <div class="row">
                     <div class="card-body col-md-6">
-                        <h2 class="card-title"><strong>A propos</strong></h2>
+                        <h2 class="card-title">A propos</h2>
                         <hr class="border opacity-100 border-primary border-2 mb-5"/>
                         <img src="./src/assets/images/john-doe-about.jpg" class="img-fluid" alt="un homme travaillant à son bureau"></img>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere maximus urna sit amet suscipit.
@@ -32,33 +32,33 @@ const Home = () => {
                     </div>
                 
                     <div class="card-body col-md-6">
-                        <h2 class="card-title"><b>Mes compétences</b></h2>
+                        <h2 class="card-title">Mes compétences</h2>
                         <hr class="border opacity-100 border-primary border-2 mb-5"/>
-                        <h3>html5 90%</h3>
+                        <h3 className="text-uppercase ">html5 90%</h3>
                             <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                             <div class="progress-bar bg-danger" style={{width: "90%"}}></div>
                             </div>
                             <br />
                         
-                        <h3>css3 80%</h3>
+                        <h3  className="text-uppercase ">css3 80%</h3>
                             <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
                             <div class="progress-bar bg-info " style={{width: "80%"}}></div>
                             </div>
                             <br />
 
-                        <h3>javascript 70%</h3>
+                        <h3  className="text-uppercase ">javascript 70%</h3>
                             <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                             <div class="progress-bar bg-warning" style={{width: "70%"}}></div>
                             </div>
                             <br />
 
-                        <h3>php 60%</h3>
+                        <h3  className="text-uppercase">php 60%</h3>
                             <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                             <div class="progress-bar bg-success " style={{width: "60%"}}></div>
                             </div>
                             <br />
 
-                        <h3>react 50%</h3>  
+                        <h3  className="text-uppercase">react 50%</h3>  
                             <div class="progress" role="progressbar" aria-label="Primary example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                             <div class="progress-bar bg-primary" style={{width: "50%"}}></div>
                             </div>

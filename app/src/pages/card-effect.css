@@ -1,0 +1,7 @@
+.card-hover :hover {
+    box-shadow: 0 0.5rem 1rem rgb(190, 190, 190);
+    background-color: #efefef;
+    > :hover {
+        box-shadow: none;
+    };
+}
