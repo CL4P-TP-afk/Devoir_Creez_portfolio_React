@@ -1,4 +1,7 @@
 .card-services :hover {
-    box-shadow: 0 0.5rem 1rem  rgb(99, 99, 99) ;
+    box-shadow: 0 0.5rem 1rem rgb(190, 190, 190);
     background-color: #efefef;
+    > :hover {
+        box-shadow: none;
+    };
 }
