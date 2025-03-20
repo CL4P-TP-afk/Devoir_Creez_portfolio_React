@@ -48,7 +48,7 @@ const Nav = () => {
               <ul className="navbar-nav mb-2 mb-lg-0 ">
                 <Lien lien="Home" page="/" />
                 <Lien lien="Services" page="/services" />
-                <Lien lien="Portofolio" page="/portfolio" />
+                <Lien lien="Portfolio" page="/portfolio" />
                 <Lien lien="Contact" page="/contact" />
                 <Lien lien="Mentions Légales" page="/mentionslegales" />
               </ul>
