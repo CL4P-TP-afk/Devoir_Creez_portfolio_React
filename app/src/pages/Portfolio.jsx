@@ -36,8 +36,7 @@ const Portfolio = () => {
                             footer="Site réalisé avec LARAVEL"
                         /> 
                     </Col>                
-                </Row>
-                <Row>
+                
                     <Col md="4" className='p-2'>
                         <CardPortfolio 
                             alt="S E O en titre entouré de termes techniques s'y référant sur fond bleu" 
