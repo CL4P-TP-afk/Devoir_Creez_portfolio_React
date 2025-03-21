@@ -2,7 +2,8 @@ import { Button, Card, CardTitle, CardText, CardImg,CardHeader, CardBody, CardFo
 
 const CardPortfolio = (props) => {
     return (
-        <Card>
+        
+        <Card style={{width: '100%'}} className='h-100'>
             <CardHeader className='p-0'>
                 <CardImg alt={props.alt} src={props.src} width="100%" />
             </CardHeader>                  
@@ -19,6 +20,7 @@ const CardPortfolio = (props) => {
             {props.footer}
             </CardFooter>
         </Card>
+        
     );
 };
 
