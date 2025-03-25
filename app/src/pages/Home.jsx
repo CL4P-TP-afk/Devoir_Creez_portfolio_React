@@ -1,7 +1,7 @@
 import "./home.css";
 import ModalHome from "../components/Modal-home";
 
-
+// voir utilisation de reactstrap : des composants interessants a étudier
 
 const Home = () => {
     return (

@@ -4,9 +4,7 @@ import "./card-effect.css";
 
 const Services = () => {
     return (
-        <>
-            
-            
+        <>            
             <img src="./src/assets/images/banner.jpg" alt="ligne lumineuse droite puis partant dans tous les sens sur fond bleu foncé" class="img-fluid w-100" />
             
             <div className="container text-center ">

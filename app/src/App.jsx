@@ -6,6 +6,8 @@ import { Routes, Route, Link } from "react-router-dom";
 import Nav from "./components/Nav";
 import Foot from "./components/Footer";
 
+
+
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
@@ -17,7 +19,7 @@ function App() {
     <>
       <Nav />
 
-      
+  
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/services" element={<Services />}></Route>
