@@ -10,11 +10,11 @@ const Portfolio = () => {
             
             <div className="container text-center h-100 py-4">
                 <Row className='justify-content-center py-3'>
-                    <Col className="col col-md-5 py-3">   
+                    {/* <Col className="col col-md-5 py-3">    */}
                         <h1>Portfolio</h1>
                         <p>voici quelques-unes de mes réalisations.</p>   
-                        <hr className='border border-primary border-3 opacity-100 my-4' />
-                    </Col>
+                        <hr className='border border-primary border-3 opacity-100 my-4' style={{width:"40%"}} />
+                    {/* </Col> */}
                 </Row>
                 <Row className='py-3'>
                     <Col md="4" className='p-2' >
