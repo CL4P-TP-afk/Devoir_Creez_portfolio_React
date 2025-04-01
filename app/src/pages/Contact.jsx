@@ -1,5 +1,7 @@
 import {Container, Row, Col, CardTitle, CardText, Button , CardBody , CardFooter, CardHeader, Card, Form, Label, FormGroup, Input } from 'reactstrap';
 import { Link } from "react-router-dom";
+import "./contact.css";
+
 
 
 const Contact = () => {
@@ -29,7 +31,7 @@ const Contact = () => {
                                                 name="nom"
                                                 placeholder="Votre nom"
                                                 type="text"
-                                                />                                           
+                                                required />                                           
                                                                                
                                             <Label for="email"/>
                                             <Input
@@ -37,7 +39,7 @@ const Contact = () => {
                                                 name="email"
                                                 placeholder="Votre adresse email"
                                                 type="email"
-                                                />
+                                                required />
 
                                             <Label for="tel"/>
                                             <Input
@@ -45,22 +47,21 @@ const Contact = () => {
                                                 name="tel"
                                                 placeholder="Votre numéro de téléphone"
                                                 type="tel"
-                                                />
+                                                required/>
                                             <Label for='sujet'/>
                                             <Input
                                                 id="sujet"
                                                 name="sujet"
                                                 placeholder="Sujet"
                                                 type="text"
-                                                />
+                                                required/>
                                             <Label for='message'/>
                                             <Input
                                                 id="message"
                                                 name="message"
                                                 placeholder="Votre message"
-                                                type="textarea"
-                                                size=""
-                                                />                                                          
+                                                type="textarea"                                                
+                                                required/>                                                          
                                         
                                         <Button href="#" tag="a" color="primary" type="submit" value="Submit">Envoyer</Button>
                                         {/* <Button href="#" tag="input" color="primary" type="submit" value="Submit">Envoyer</Button> */}
@@ -107,7 +108,7 @@ const Contact = () => {
                                         </Link>
                                         <br></br>
                                     </address>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.6271524681965!2d4.796398612379265!3d45.77866197096023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1743173701021!5m2!1sfr!2sfr" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.6271524681965!2d4.796398612379265!3d45.77866197096023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1743173701021!5m2!1sfr!2sfr" width="100%" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </CardBody>
                             </Col>
                         </Row>
