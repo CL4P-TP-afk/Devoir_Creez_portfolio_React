@@ -1,21 +1,6 @@
-import { Container, Row, Col, CardTitle, Button, CardBody, Card, Form, Label, Input} from "reactstrap";
+import { Container,  Row,  Col,  CardTitle, CardBody, Card } from "reactstrap";
 import { Link } from "react-router-dom";
-import "./contact.css";
-
-const LabelInput = (props) => {
-  return (
-    <>
-      <Label for={props.ForIdName} />
-      <Input
-        id={props.ForIdName}
-        name={props.ForIdName}
-        placeholder={props.Placeholder}
-        type={props.Type}
-        required
-      />
-    </>
-  );
-};
+import FormulaireContact from "../components/Formulaire-Contact";
 
 const Contact = () => {
   return (
@@ -32,7 +17,6 @@ const Contact = () => {
             style={{ width: "40%" }}
           />
         </Row>
-
         <Row>
           <Card className="shadow border-0">
             <Row>
@@ -40,38 +24,7 @@ const Contact = () => {
                 <CardBody>
                   <CardTitle tag="h2">Formulaire de contact</CardTitle>
                   <hr className="border border-primary border-2 opacity-100" />
-                  <Form>
-                    <LabelInput
-                      ForIdName="nom"
-                      Placeholder="Votre nom"
-                      Type="text"
-                    />
-                    <LabelInput
-                      ForIdName="email"
-                      Placeholder="Votre adresse email"
-                      Type="email"
-                    />
-                    <LabelInput
-                      ForIdName="tel"
-                      Placeholder="Votre numéro de téléphone"
-                      Type="tel"
-                    />
-                    <LabelInput
-                      ForIdName="sujet"
-                      Placeholder="Sujet"
-                      Type="text"
-                    />
-                    <LabelInput
-                      ForIdName="message"
-                      Placeholder="Votre message"
-                      Type="textarea"
-                    />
-                    <div className="text-center pt-3">
-                      <Button color="primary" type="submit" value="Submit">
-                        Envoyer
-                      </Button>
-                    </div>
-                  </Form>
+                  <FormulaireContact />
                 </CardBody>
               </Col>
               <Col md="6">

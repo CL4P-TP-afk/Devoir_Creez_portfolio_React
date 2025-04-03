@@ -1,4 +1,5 @@
 import { Button, Form, Label, Input } from "reactstrap";
+import "../pages/contact.css";
 
 const LabelInput = (props) => {
   return (
@@ -15,7 +16,7 @@ const LabelInput = (props) => {
   );
 };
 
-const FormContact = () => {
+const FormulaireContact = () => {
   return (
     <>
       <Form>
@@ -46,4 +47,4 @@ const FormContact = () => {
   );
 };
 
-export default FormContact;
+export default FormulaireContact;
