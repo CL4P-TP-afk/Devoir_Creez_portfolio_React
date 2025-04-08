@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const AdressJD = () => {
+const AddressJD = () => {
     return (
         <>
             <address className="pt-4">
@@ -75,4 +75,4 @@ const AdressJD = () => {
 };
 
 
-export default AdressJD;
+export default AddressJD;

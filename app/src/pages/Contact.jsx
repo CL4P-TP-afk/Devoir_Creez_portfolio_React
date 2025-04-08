@@ -1,6 +1,6 @@
 import { Container,  Row,  Col,  CardTitle, CardBody, Card } from "reactstrap";
 import FormulaireContact from "../components/Formulaire-Contact";
-import AdressJD from "../content/AdressJD";
+import AddressJD from "../content/AddressJD";
 
 const Contact = () => {
   return (
@@ -31,7 +31,7 @@ const Contact = () => {
                 <CardBody>
                   <CardTitle tag="h2">Mes coordonnées</CardTitle>
                   <hr className="border border-primary border-2 opacity-100" />
-                  <AdressJD />                  
+                  <AddressJD />                  
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.6271524681965!2d4.796398612379265!3d45.77866197096023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1743173701021!5m2!1sfr!2sfr"
                     width="100%"
