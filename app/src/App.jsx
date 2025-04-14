@@ -17,9 +17,7 @@ import MentionsLegales from "./pages/Mentions-legales";
 function App() {
   return (
     <>
-      <Nav />
-
-  
+      <Nav />  
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/services" element={<Services />}></Route>

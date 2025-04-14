@@ -3,7 +3,6 @@ import FormulaireContact from "../components/Formulaire-Contact";
 import AddressJD from "../content/AddressJD";
 
 const Contact = () => {
-  // method window.scrollTo ne fonctionne que dans certain cas ici pourquoi ?
   window.scrollTo(0, 0);
   return (
     <>

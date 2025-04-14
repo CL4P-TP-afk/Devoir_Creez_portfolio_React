@@ -1,9 +1,7 @@
 import "./card-effect.css";
 import { Card, CardBody, CardText, CardTitle, Col, Container, Row } from "reactstrap";
 
-
 const Services = () => {
-    // method window.scrollTo ne fonctionne pas ici pourquoi ?
     window.scrollTo(0,0);
     return (
         <>            
