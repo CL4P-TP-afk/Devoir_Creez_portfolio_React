@@ -4,6 +4,8 @@ import AddressJD from "../content/AddressJD";
 import { Link } from "react-router-dom";
 
 const MentionsLegales = (props) => {
+  window.scrollTo(0, 0);
+  
   const [open, setOpen] = useState("1");
   const toggle = (id) => {
     if (open === id) {
@@ -23,7 +25,6 @@ const MentionsLegales = (props) => {
             style={{ width: "40%" }}
           />
         </Row>
-
         <Row>
           <Accordion open={open} toggle={toggle}>
             <AccordionItem>
@@ -38,7 +39,7 @@ const MentionsLegales = (props) => {
                 <h2>alwaysdata</h2>
                 <address>
                   91 Rue du faubourg Saint-Honoré, 75008 Paris <br />
-                  <Link to="www.alwaysdata.com"> www.alwaysdata.com</Link>
+                  <Link to="https://www.alwaysdata.com"  target="_blank"> www.alwaysdata.com</Link>
                 </address>
               </AccordionBody>
             </AccordionItem>

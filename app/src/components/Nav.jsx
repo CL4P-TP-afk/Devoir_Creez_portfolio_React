@@ -6,7 +6,7 @@ const Lien = (props) => {
     <li className="nav-item">
       <NavLink
         className="nav-lien"
-        to={props.page}
+        to={props.page}                
         style={({ isActive }) => {
           return {
             fontWeight: isActive ? "bold" : "normal",
@@ -16,7 +16,7 @@ const Lien = (props) => {
         }}
       >
         {props.lien}
-      </NavLink>
+      </NavLink>      
     </li>
   );
 };
@@ -50,7 +50,7 @@ const Nav = () => {
                 <Lien lien="Services" page="/services" />
                 <Lien lien="Portfolio" page="/portfolio" />
                 <Lien lien="Contact" page="/contact" />
-                <Lien lien="Mentions Légales" page="/mentionslegales" />
+                <Lien lien="Mentions Légales" page="/mentionslegales" rel="nofollow"/>
               </ul>
             </div>
           </div>

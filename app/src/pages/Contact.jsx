@@ -3,21 +3,20 @@ import FormulaireContact from "../components/Formulaire-Contact";
 import AddressJD from "../content/AddressJD";
 
 const Contact = () => {
+  // method window.scrollTo ne fonctionne que dans certain cas ici pourquoi ?
+  window.scrollTo(0, 0);
   return (
     <>
-      <Container className=" h-100 py-4">
-        <Row className="justify-content-center py-3 text-center">
+      <Container className=" h-100 py-4 my-4">
+        <Row className="justify-content-center py-3 my-3 text-center">
           <h1>Contact</h1>
           <p>
             Pour me contacter en vue d'un entretien ou d'une future
             collaboration, merci de remplir le formulaire de contact.
           </p>
-          <hr
-            className="border border-primary border-3 opacity-100 my-4 "
-            style={{ width: "40%" }}
-          />
+          <hr className="border border-primary border-3 opacity-100 my-3" style={{ width: "40%" }} />
         </Row>
-        <Row>
+        <Row className="py-3">
           <Card className="shadow border-0">
             <Row>
               <Col md="6">
