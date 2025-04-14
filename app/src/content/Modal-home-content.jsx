@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from "react";
 
-// voir une autre solution pour les icones 
-
 const ModalHomeContent = () => {
 
     const [user,setUser] = useState([]);
@@ -15,7 +13,6 @@ const ModalHomeContent = () => {
     useEffect(() => {
         getUser();
     },[])
-
 
   return (
     <>
