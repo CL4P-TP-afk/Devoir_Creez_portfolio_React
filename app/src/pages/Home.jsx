@@ -1,6 +1,7 @@
 import "./home.css";
 import ModalHome from "../components/Modal-home";
 import { Progress } from "reactstrap";
+import { Helmet } from 'react-helmet';
 
 
 const Home = () => {
@@ -8,8 +9,11 @@ const Home = () => {
     window.scrollTo(0, 0);
     return (
         <>
+        <Helmet>
+            <title>Devoir React.js: Accueil</title>
+            <meta name="description" content="page de presentation de John Doe" />
+        </Helmet>
         <main>
-         {/* a retravailler : dimentions, background image  = voir sur les autres méthodes avec bootstrap (avec filtre) */}
         <section className="hero text-center text-white align-content-center">
             
             <h1>Bonjour, je suis John Doe</h1>

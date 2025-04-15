@@ -1,10 +1,15 @@
 import "./card-effect.css";
 import { Card, CardBody, CardText, CardTitle, Col, Container, Row } from "reactstrap";
+import { Helmet } from 'react-helmet';
 
 const Services = () => {
     window.scrollTo(0,0);
     return (
-        <>            
+        <> 
+        <Helmet>
+            <title>Devoir React.js: Services</title>
+            <meta name="description" content="les services de developpeement web que John Doe propose" />
+        </Helmet>           
             <img src="./src/assets/images/banner.jpg" alt="ligne lumineuse droite puis partant dans tous les sens sur fond bleu foncé" class="img-fluid w-100" />            
             <Container className=" h-100 py-3 mt-2 mb-3">
                 <Row className='justify-content-center py-3 my-2 text-center'>                    
