@@ -1,10 +1,15 @@
 import {Row, Col, Container} from 'reactstrap';
 import CardPortfolio from '../components/card-portfolio';
+import { Helmet } from 'react-helmet';
 
 const Portfolio = () => {
     window.scrollTo(0, 0);
     return (
         <>
+            <Helmet>
+                <title>Devoir React.js: Portfolio</title>
+                <meta name="description" content="les realisations de John Doe en developpement web" />
+            </Helmet>
             <img src="../src/assets/images/banner.jpg" 
                  alt="ligne lumineuse droite puis partant dans tous les sens sur fond bleu foncé" 
                  class="img-fluid w-100" />

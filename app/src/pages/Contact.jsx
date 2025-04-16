@@ -1,12 +1,16 @@
 import { Container,  Row,  Col,  CardTitle, CardBody, Card } from "reactstrap";
 import FormulaireContact from "../components/Formulaire-Contact";
 import AddressJD from "../content/AddressJD";
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
-  // method window.scrollTo ne fonctionne que dans certain cas ici pourquoi ?
   window.scrollTo(0, 0);
   return (
     <>
+      <Helmet>
+        <title>Devoir React.js: Contact</title>
+        <meta name="description" content="formulaire de contact de John Doe " />
+      </Helmet>
       <Container className=" h-100 py-4 my-4">
         <Row className="justify-content-center py-3 my-3 text-center">
           <h1>Contact</h1>

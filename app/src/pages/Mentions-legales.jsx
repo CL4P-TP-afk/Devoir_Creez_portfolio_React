@@ -2,6 +2,7 @@ import { Container, Row, Accordion, AccordionBody, AccordionHeader, AccordionIte
 import React, { useState } from "react";
 import AddressJD from "../content/AddressJD";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 const MentionsLegales = (props) => {
   window.scrollTo(0, 0);
@@ -17,6 +18,11 @@ const MentionsLegales = (props) => {
 
   return (
     <>
+      <Helmet>
+        <title>Devoir React.js: Mentions légales</title>
+        <meta name="robots" content="noindex"/>
+        <meta name="description" content="mentions legales du site" />
+      </Helmet>
       <Container className=" h-100 py-4">
         <Row className="justify-content-center py-3 text-center">
           <h1>Mentions légales</h1>

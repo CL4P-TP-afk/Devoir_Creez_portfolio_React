@@ -1,15 +1,20 @@
 import "./home.css";
 import ModalHome from "../components/Modal-home";
 import { Progress } from "reactstrap";
+import { Helmet } from 'react-helmet';
 
 
 const Home = () => {
-    // permettre a chaques appel de la page de se positionner en haut de la page en utilisant la methode scrollTo()
+    
     window.scrollTo(0, 0);
+
     return (
         <>
+        <Helmet>
+            <title>Devoir React.js: Accueil</title>
+            <meta name="description" content="page de presentation de John Doe" />
+        </Helmet>
         <main>
-         {/* a retravailler : dimentions, background image  = voir sur les autres méthodes avec bootstrap (avec filtre) */}
         <section className="hero text-center text-white align-content-center">
             
             <h1>Bonjour, je suis John Doe</h1>
