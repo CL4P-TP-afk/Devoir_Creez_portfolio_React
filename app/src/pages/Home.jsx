@@ -5,8 +5,9 @@ import { Helmet } from 'react-helmet';
 
 
 const Home = () => {
-    // permettre a chaques appel de la page de se positionner en haut de la page en utilisant la methode scrollTo()
+    
     window.scrollTo(0, 0);
+
     return (
         <>
         <Helmet>
